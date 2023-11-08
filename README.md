@@ -28,6 +28,10 @@ ici exemple renommer pour publier sur dockerhub avec nom du compte avant par con
 
 ```sudo docker tag my-json-server:v1.0 laurentarcos/my-json-server:v1.0```
 
+ou dupliquer une image en changeant son nom :
+
+```docker tag nomdemonprojet laurentarcos/nomdemonprojet```
+
 ## Lancer le docker en éxécutant Dockerfile
 
 ```sudo docker run -i -t -p 3000:3000```
