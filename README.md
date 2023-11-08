@@ -4,7 +4,7 @@ Voir fichier cycle_container_docker.pngssudo
 
 ## Créer une image
 
-```sudo docker build -t dockerchallenges01 .```
+```sudo docker build -t nomdemonprojet .```
 
 sudo docker build -t {nom souhaité tout en miniscules et attaché} .
 
@@ -20,13 +20,13 @@ ou
 
 ## Supprimer une image
 
-```sudo docker image rm dockerchallenges01```
+```sudo docker image rm nomdemonprojet```
 
 ## Renommer une image
 
 ici exemple renommer pour publier sur dockerhub avec nom du compte avant par convention :
 
-```sudo docker tag my-json-server:v1.0 jeremyoclock/my-json-server:v1.0```
+```sudo docker tag my-json-server:v1.0 laurentarcos/my-json-server:v1.0```
 
 ## Lancer le docker en éxécutant Dockerfile
 
