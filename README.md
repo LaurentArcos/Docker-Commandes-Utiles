@@ -22,6 +22,10 @@ ou
 
 ```sudo docker image rm nomdemonprojet```
 
+## Supprimer toutes les images
+
+```sudo docker image prune -a```
+
 ## Renommer une image
 
 ici exemple renommer pour publier sur dockerhub avec nom du compte avant par convention :
