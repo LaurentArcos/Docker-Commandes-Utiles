@@ -1,6 +1,6 @@
 # Commandes Docker utiles
 
-Voir fichier cycle_container_docker.pngssudo
+![Schéma](cycle_container_docker.png)
 
 ## Créer une image
 
