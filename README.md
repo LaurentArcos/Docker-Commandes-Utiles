@@ -124,3 +124,8 @@ Pour start/restart un conteneur :
 Pour supprimer un conteneur :
 
 ```sudo docker compose down```
+
+Pour supprimer toue ce qui peut occuper de l'espace :
+
+```sudo docker system  prune -a```
+
